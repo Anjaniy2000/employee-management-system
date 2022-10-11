@@ -23,7 +23,7 @@
         <input type="text" th:field="*{employeeId}" placeholder="Employee ID" maxlength="7" class="form-control mb-4 col-6" required>
         <input type="text" th:field="*{firstName}" placeholder="First Name" maxlength="15" class="form-control mb-4 col-6" required>
         <input type="text" th:field="*{lastName}" placeholder="Last Name" maxlength="15" class="form-control mb-4 col-6" required>
-<!--        <input type="text" th:field="*{departmentName}" placeholder="Department Name" maxlength="30" class="form-control mb-4 col-6" required>-->
+
         <label for="departmentName">Choose Department Name:</label>
         <select name="departmentName" th:field="*{departmentName}" id="departmentName">
             <option value="">--Please choose your department--</option>
@@ -41,8 +41,6 @@
         </select>
         <input type="text" th:field="*{designation}" placeholder="Designation Name" maxlength="30" class="form-control mt-3 mb-4 col-6" required>
 
-
-<!--        <input type="text" th:field="*{employeeType}" placeholder="Employee Type" maxlength="30" class="form-control mb-4 col-6" required>-->
         <label for="employeeType">Choose Employee Type:</label>
         <select name="employeeType" th:field="*{employeeType}" id="employeeType">
             <option value="">--Please choose your employee type--</option>
